@@ -1,0 +1,54 @@
+/* 
+    Document   : menu
+    Created on : 21-oct-2013, 10:01:37
+    Author     : al037342
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    /* color: white;*/
+    font-family: Arial;
+     font-size: 1.1em;
+}
+
+.container{
+}
+
+.navbar-inverse{
+    background-image: url('../img/header_bg_run.jpg');
+    border: 0;
+    
+}
+.navbar-collapse collapse{
+    
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-right > li > .navbar-brand > a{
+    color: rgb(149, 202, 234);
+   
+
+}
+.navbar-inverse .navbar-brand  {
+    color: #ffffff;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.nav navbar-nav, .navbar-right > li > .navbar-brand > a {
+    font-size: 12px;
+    color: rgb(149, 202, 234);
+    font-family: Verdana;
+
+
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color:#004467;
+    border: rgba(0,0,0,0);
+}
+
+#social {
+    font-size: 12px !important;
+    color: rgb(149, 202, 234) !important;
+    font-family: Verdana !important;
+}
